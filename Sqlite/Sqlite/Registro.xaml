@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Sqlite.Registro">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="VENTANA DE REGISTRO" />
+
+            <Entry x:Name="txtNombre" Placeholder="Ingrese su nombre"/>
+            <Entry x:Name="txtUsuario" Placeholder="Ingrese su usuario" />
+            <Entry x:Name="txtContrasena" Placeholder="Ingrese su contraseña" IsPassword="True"/>
+
+            <Button x:Name="btnGuardar" Text="Guardar" Clicked="btnGuardar_Clicked"/>
+            <Button x:Name="btnSalir" Text="Salir" Clicked="btnSalir_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
